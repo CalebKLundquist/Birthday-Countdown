@@ -1,0 +1,12 @@
+.large-text {
+    grid-column: 8/10;
+    grid-row: 1/3;
+
+    align-self: center;
+    justify-self: center;
+
+    color: $color-gray-two;
+    font-family: $font-robo;
+    font-size: 220px;
+    font-weight: 700;
+}

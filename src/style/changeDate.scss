@@ -5,15 +5,18 @@
     font-size: 20px;
     line-height: 19px;
     text-align: center;
-    font-family: "Roboto Condensed";
+    font-family: $font-robo;
     color: white;
     font-weight: 100;
 
     background-color: transparent;
     border: none;
 
-    transform: rotate(-66deg) translate(-50px, -55px);
+    transform: rotate(-66deg) translate(-40px, -60px);
 
+    &:focus {
+        outline: none;
+    }
     i {
         padding-right: 10px;
     }
